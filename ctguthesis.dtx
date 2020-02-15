@@ -1,6 +1,6 @@
 % \iffalse meta-comment
 %
-% Copyright (C) 2005-2020 by Ruini Xue <xueruini@gmail.com>
+% Copyright (C) 2005-2020 by Ruini Xue <sxdxyxy@gmail.com>
 %
 % This work may be distributed and/or modified under the
 % conditions of the LaTeX Project Public License, either version 1.3
@@ -16,7 +16,7 @@
 %
 % \iffalse
 %<*driver>
-\ProvidesFile{thuthesis.dtx}[2020/02/03 6.0.1 Tsinghua University Thesis Template]
+\ProvidesFile{ctguthesis.dtx}[2020/02/03 6.0.1 China Three Gorges University Thesis Template]
 \documentclass{ltxdoc}
 \usepackage{dtx-style}
 
@@ -55,8 +55,8 @@
 % \def\indexname{索引}
 % \IndexPrologue{\section{\indexname}}
 %
-% \title{\bfseries\color{violet}\thuthesis：三峡大学学位论文模板}
-% \author{{\fangsong 薛瑞尼}\\[5pt]\texttt{xueruini@gmail.com}}
+% \title{\bfseries\color{violet}\ctguthesis：三峡大学学位论文模板}
+% \author{{\fangsong 余晓云}\\[5pt]\texttt{sxdxyxy@gmail.com}}
 % \date{v\fileversion\ (\filedate)}
 % \maketitle\thispagestyle{empty}
 %
@@ -102,39 +102,39 @@
 % \clearpage
 %
 % \section{模板介绍}
-% \thuthesis{} (\textbf{T}sing\textbf{h}ua \textbf{U}niversity \LaTeX{}
+% \ctguthesis{} (\textbf{T}sing\textbf{h}ua \textbf{U}niversity \LaTeX{}
 % \textbf{Thesis} Template) 是为了帮助三峡大学毕业生撰写毕业论文而编写
 % 的 \LaTeX{} 论文模板。
 %
 % 本文档将尽量完整的介绍模板的使用方法，如有不清楚之处，或者想提出改进建议，
-% 可以在 \href{https://github.com/xueruini/thuthesis/issues/}{GitHub Issues}
+% 可以在 \href{https://github.com/sxdxyxy/ctguthesis/issues/}{GitHub Issues}
 % 参与讨论或提问。
 % 有兴趣者都可以参与完善此手册，也非常欢迎对代码的贡献。
 %
 % \note[注意：]{模板的作用在于减少论文写作过程中格式调整的时间。前提是遵守模板的
-% 用法，否则即便用了 \thuthesis{} 也难以保证输出的论文符合学校规范。}
+% 用法，否则即便用了 \ctguthesis{} 也难以保证输出的论文符合学校规范。}
 %
 % 用户如果遇到 bug，或者发现与学校《写作指南》 的要求不一致，可以尝试以下办法：
 % \begin{enumerate}
 %   \item 将模板升级到最新，见第~\ref{sec:upgrade} 节；
-%   \item 阅读 \href{https://github.com/xueruini/thuthesis/wiki/FAQ}{FAQ}；
+%   \item 阅读 \href{https://github.com/sxdxyxy/ctguthesis/wiki/FAQ}{FAQ}；
 %   \item 在 GitHub Issues 中按照说明
-%     \href{https://github.com/xueruini/thuthesis/issues/new?template=bug_report.md}{报告 bug}。
+%     \href{https://github.com/sxdxyxy/ctguthesis/issues/new?template=bug_report.md}{报告 bug}。
 % \end{enumerate}
 %
 % \section{安装}
 % \label{sec:installation}
 %
-% \thuthesis{} 已经包含在主要的 \TeX{} 发行版中，但是通常版本较旧，
+% \ctguthesis{} 已经包含在主要的 \TeX{} 发行版中，但是通常版本较旧，
 % 而且不方便更新。
 % 建议使用 GitHub 上的最新版：
-% \url{https://github.com/xueruini/thuthesis}。
+% \url{https://github.com/sxdxyxy/ctguthesis}。
 %
 % 模板支持在 TeX Live、MacTeX 和 MiKTeX 平台下进行编译，但要求 2017 年或更新的发行版。
 % 当然，尽可能使用最新的版本可以避免 bug。
 %
 % \subsection{模板的组成}
-% 下表列出了 \thuthesis{} 的主要文件及其功能介绍：
+% 下表列出了 \ctguthesis{} 的主要文件及其功能介绍：
 %
 % \begin{longtable}{l|p{8cm}}
 % \toprule
@@ -145,12 +145,12 @@
 % \endhead
 % \endfoot
 % \endlastfoot
-% thuthesis.ins & \textsc{DocStrip} 驱动文件（开发用） \\
-% thuthesis.dtx & \textsc{DocStrip} 源文件（开发用）\\\midrule
-% thuthesis.cls & 模板类文件\\
-% thuthesis-numeric.bst & 参考文献样式文件\\
-% thuthesis-author-year.bst & 参考文献样式文件\\
-% thuthesis-bachelor.bst & 参考文献样式文件\\
+% ctguthesis.ins & \textsc{DocStrip} 驱动文件（开发用） \\
+% ctguthesis.dtx & \textsc{DocStrip} 源文件（开发用）\\\midrule
+% ctguthesis.cls & 模板类文件\\
+% ctguthesis-numeric.bst & 参考文献样式文件\\
+% ctguthesis-author-year.bst & 参考文献样式文件\\
+% ctguthesis-bachelor.bst & 参考文献样式文件\\
 % tsinghua.pdf & 校名 logo，系统无隶书字体时使用 \\\midrule
 % main.tex & 示例文档主文件\\
 % spine.tex & 书脊示例文档\\
@@ -161,27 +161,27 @@
 % Makefile & Makefile\\
 % latexmkrc & latexmk 配置文件 \\
 % README.md & Readme\\
-% \textbf{thuthesis.pdf} & 用户手册（本文档）\\\bottomrule
+% \textbf{ctguthesis.pdf} & 用户手册（本文档）\\\bottomrule
 % \end{longtable}
 %
 % 几点说明：
 % \begin{itemize}
-% \item \file{thuthesis.cls} 可由 \file{thuthesis.ins}
-%   和 \file{thuthesis.dtx} 生成，但为了降低新手用户的使用难度，故
-%   将 \file{thuthesis.cls} 文件一起发布。
-% \item 使用前阅读文档：\file{thuthesis.pdf}。
+% \item \file{ctguthesis.cls} 可由 \file{ctguthesis.ins}
+%   和 \file{ctguthesis.dtx} 生成，但为了降低新手用户的使用难度，故
+%   将 \file{ctguthesis.cls} 文件一起发布。
+% \item 使用前阅读文档：\file{ctguthesis.pdf}。
 % \end{itemize}
 %
 % \subsection{生成模板}
 % \label{sec:generate-cls}
-% 模板的源文件（\file{thuthesis.dtx}）中包含了大量的注释，需要将注释去掉生成轻量
+% 模板的源文件（\file{ctguthesis.dtx}）中包含了大量的注释，需要将注释去掉生成轻量
 % 级的 \file{.cls} 文件供 \cs{documentclass} 调用。
 %
 % \begin{shell}
-%   $ xetex thuthesis.ins
+%   $ xetex ctguthesis.ins
 % \end{shell}
 %
-% \note[注意：]{如果没有生成的模板 \file{thuthesis.cls} 文件
+% \note[注意：]{如果没有生成的模板 \file{ctguthesis.cls} 文件
 %   （跟 \file{main.tex} 同一目录下），
 %   \LaTeX{} 在编译时可能找到发行版中较旧版本的 \file{.cls}，从而造成冲突。}
 %
@@ -192,11 +192,11 @@
 % \subsubsection{GNU make}
 % \label{sec:make}
 % 如果用户可以使用 GNU make 工具，这是最方便的办法。
-% 所以 \thuthesis{} 提供了 \file{Makefile}：
+% 所以 \ctguthesis{} 提供了 \file{Makefile}：
 % \begin{shell}
 %   $ make thesis    # 生成论文 main.pdf
 %   $ make spine     # 生成书脊 spine.pdf
-%   $ make doc       # 生成说明文档 thuthesis.pdf
+%   $ make doc       # 生成说明文档 ctguthesis.pdf
 %   $ make clean     # 清理编译生成的辅助文件
 % \end{shell}
 %
@@ -207,7 +207,7 @@
 % \begin{shell}
 %   $ latexmk main.tex       # 生成论文 main.pdf
 %   $ latexmk spine.tex      # 生成书脊 spine.pdf
-%   $ latexmk thuthesis.dtx  # 生成说明文档 thuthesis.pdf
+%   $ latexmk ctguthesis.dtx  # 生成说明文档 ctguthesis.pdf
 %   $ latexmk -c             # 清理编译生成的辅助文件
 % \end{shell}
 % \texttt{latexmk} 的编译过程是通过 \file{latexmk} 文件来配置的，如果要进一步了解，
@@ -217,7 +217,7 @@
 % \label{sec:xelatex}
 % 如果用户无法使用以上两种较为方便的编译方法，就只能按照以下复杂的办法手动编译。
 % \begin{shell}
-%   $ xetex thuthesis.ins  # 生成 thuthesis.cls
+%   $ xetex ctguthesis.ins  # 生成 ctguthesis.cls
 %   $ xelatex main.tex
 %   $ bibtex main.tex      # 生成 bbl 文件
 %   $ xelatex main.tex     # 解决引用
@@ -226,18 +226,18 @@
 %
 % 下面的命令用来生成用户手册，
 % \begin{shell}
-%   $ xelatex thuthesis.dtx
-%   $ makeindex -s gind.ist -o thuthesis.ind thuthesis.idx
-%   $ makeindex -s gglo.ist -o thuthesis.gls thuthesis.glo
-%   $ xelatex thuthesis.dtx
-%   $ xelatex thuthesis.dtx  % 生成说明文档 thuthesis.pdf
+%   $ xelatex ctguthesis.dtx
+%   $ makeindex -s gind.ist -o ctguthesis.ind ctguthesis.idx
+%   $ makeindex -s gglo.ist -o ctguthesis.gls ctguthesis.glo
+%   $ xelatex ctguthesis.dtx
+%   $ xelatex ctguthesis.dtx  % 生成说明文档 ctguthesis.pdf
 % \end{shell}
 %
 % \subsection{升级}
 % \label{sec:upgrade}
-% 如果需要升级 \thuthesis{}，应当从 GitHub 下载最新的版本，
-% 将 \file{thuthesis.dtx}，\file{thuthesis.ins}，\file{tsinghua.pdf}和
-% \file{thuthesis-*.bst} 拷贝至工作目录覆盖相应的文件，然后按照
+% 如果需要升级 \ctguthesis{}，应当从 GitHub 下载最新的版本，
+% 将 \file{ctguthesis.dtx}，\file{ctguthesis.ins}，\file{tsinghua.pdf}和
+% \file{ctguthesis-*.bst} 拷贝至工作目录覆盖相应的文件，然后按照
 % 第~\ref{sec:generate-cls} 节的内容生成新的模板和使用说明。
 %
 % 有时模板可能进行了重要的修改，不兼容已写好的正文内容，
@@ -252,8 +252,8 @@
 % \label{sec:userguide}
 %
 % 模板核心文件
-% 有：\file{thuthesis.cls}，\file{thuthesis-numeric.bst}，
-% \file{thuthesis-author-year.bst} 和 \file{tsinghua.pdf}，
+% 有：\file{ctguthesis.cls}，\file{ctguthesis-numeric.bst}，
+% \file{ctguthesis-author-year.bst} 和 \file{tsinghua.pdf}，
 % 但如果没有示例文档会较难下手，所以推荐从模板自带的示例文档入手。其中包括了论文
 % 写作用到的所有命令及其使用方法，只需用自己的内容进行相应替换就可以。对于不清
 % 楚的命令可以查阅本手册。下面的例子描述了模板中章节的组织形式，来自于示例文档，
@@ -275,7 +275,7 @@
 % 不能用于 \cs{thusetup} 命令。
 % \begin{latex}
 %   % 博士论文
-%   \documentclass[degree=doctor]{thuthesis}
+%   \documentclass[degree=doctor]{ctguthesis}
 % \end{latex}
 %
 % \subsubsection{学位类型}
@@ -283,7 +283,7 @@
 % 定义研究生学位的类型，可选：\option{academic}（默认）、\option{professional}，
 % 本科生不受影响。
 % \begin{latex}
-%   \documentclass[degree=master, degree-type=professional]{thuthesis}
+%   \documentclass[degree=master, degree-type=professional]{ctguthesis}
 % \end{latex}
 %
 % \DescribeOption{language}
@@ -294,7 +294,7 @@
 % 须采用中文封面”，“除留学生外，学位论文一律须用汉语书写”，用户须提前与导师和院系
 % 的审查教师协商使用何种语言书写论文。
 % \begin{latex}
-%   \documentclass[degree=bachelor, language=english]{thuthesis}
+%   \documentclass[degree=bachelor, language=english]{ctguthesis}
 % \end{latex}
 %
 % \subsection{字体配置}
@@ -303,7 +303,7 @@
 % 具体的配置策略如表~\ref{tab:font}。
 % \begin{table}[htb]
 %   \centering
-%   \caption{\thuthesis{} 自动配置字体策略}
+%   \caption{\ctguthesis{} 自动配置字体策略}
 %   \label{tab:font}
 %   \begin{tabular}{ccc}
 %     \toprule
@@ -330,10 +330,10 @@
 %
 % 所以建议在提交最终版前使用 Windows 平台的字体进行编译。
 %
-% 用户也可以在调用 \thuthesis{} 时手动指定使用的字库，如：
+% 用户也可以在调用 \ctguthesis{} 时手动指定使用的字库，如：
 %
 % \begin{latex}
-%   \documentclass[fontset=windows]{thuthesis}
+%   \documentclass[fontset=windows]{ctguthesis}
 % \end{latex}
 %
 % 允许的选项有 \option{windows}、\option{mac}、\option{fandol}，详
@@ -639,7 +639,7 @@
 %
 % \subsubsection{数学环境}
 % \label{sec:math}
-% \thuthesis{} 定义了常用的数学环境：
+% \ctguthesis{} 定义了常用的数学环境：
 %
 % \begin{center}
 % \begin{tabular}{*{7}{l}}\toprule
@@ -697,14 +697,14 @@
 %
 % \begin{latex}
 %   % 顺序编码制
-%   \bibliographystyle{thuthesis-numeric}
+%   \bibliographystyle{ctguthesis-numeric}
 % \end{latex}
 %
 % 或
 %
 % \begin{latex}
 %   % 著者-出版年制
-%   \bibliographystyle{thuthesis-author-year}
+%   \bibliographystyle{ctguthesis-author-year}
 % \end{latex}
 %
 % \DescribeMacro{\inlinecite}
@@ -733,9 +733,9 @@
 % 模板支持使用 \hologo{BibTeX} 处理生成参考文献表，
 % 用户需要在文中设置参考文献格式并调用 \file{.bib} 数据库：
 % \begin{latex}
-%   \bibliographystyle{thuthesis-numeric}        % 顺序编码制
-%   % \bibliographystyle{thuthesis-author-year}  % 著者-出版年制
-%   % \bibliographystyle{thuthesis-bachelor}     % 本科生参考文献的著录格式
+%   \bibliographystyle{ctguthesis-numeric}        % 顺序编码制
+%   % \bibliographystyle{ctguthesis-author-year}  % 著者-出版年制
+%   % \bibliographystyle{ctguthesis-bachelor}     % 本科生参考文献的著录格式
 %   \bibliographystyle{ref1,ref2}                % 载入 ref1.bib 和 ref2.bib
 % \end{latex}
 %
@@ -782,7 +782,7 @@
 % \begin{latex}
 %   \begin{acknowledgements}
 %     …
-%     还要特别感谢 \thuthesis{} 节省了论文排版时间！
+%     还要特别感谢 \ctguthesis{} 节省了论文排版时间！
 %   \end{acknowledgements}
 % \end{latex}
 %
@@ -917,9 +917,9 @@
 %
 % \section{致谢}
 % \label{sec:thanks}
-% 感谢这些年来一直陪伴 \thuthesis{} 成长的新老同学！
+% 感谢这些年来一直陪伴 \ctguthesis{} 成长的新老同学！
 %
-% 欢迎各位到 \href{http://github.com/xueruini/thuthesis/}{\thuthesis{} GitHub 主页}贡献！
+% 欢迎各位到 \href{http://github.com/sxdxyxy/ctguthesis/}{\ctguthesis{} GitHub 主页}贡献！
 %
 % \StopEventually{\PrintIndex}
 % \clearpage
@@ -929,8 +929,8 @@
 % \subsection{基本信息}
 %    \begin{macrocode}
 %<cls>\NeedsTeXFormat{LaTeX2e}
-%<cls>\ProvidesClass{thuthesis}
-%<cls>[2020/02/03 6.0.1 Tsinghua University Thesis Template]
+%<cls>\ProvidesClass{ctguthesis}
+%<cls>[2020/02/03 6.0.1 China Three Gorges University Thesis Template]
 %    \end{macrocode}
 %
 % 检查编译引擎，要求使用 \XeLaTeX。
@@ -945,7 +945,7 @@
 %    \begin{macrocode}
 %<*cls>
 \hyphenation{Thu-Thesis}
-\def\thuthesis{ThuThesis}
+\def\ctguthesis{Ctguthesis}
 \def\version{6.0.1}
 \RequirePackage{kvdefinekeys}
 \RequirePackage{kvsetkeys}
@@ -959,7 +959,7 @@
 % 用 \pkg{kvoptions} 的 \emph{key=value} 方式来设置论文类型。
 %    \begin{macrocode}
 \newcommand\thu@error[1]{%
-  \ClassError{thuthesis}{#1}{}%
+  \ClassError{ctguthesis}{#1}{}%
 }
 %    \end{macrocode}
 %
@@ -1749,7 +1749,7 @@
 }
 \def\thu@textcircled#1{%
   \ifnum\value{#1} >9%
-    \ClassError{thuthesis}%
+    \ClassError{ctguthesis}%
       {Too many footnotes in this page.}{Keep footnote less than 10.}%
   \fi
   {\thu@circlefont\symbol{\the\numexpr\value{#1}+"245F\relax}}%
@@ -2075,7 +2075,7 @@
 \newcommand\thu@phantomsection{}
 \NewDocumentCommand\thu@chapter{s o m o}{
   \IfBooleanF{#1}{%
-    \ClassError{thuthesis}{You have to use the star form: \string\thu@chapter*}{}
+    \ClassError{ctguthesis}{You have to use the star form: \string\thu@chapter*}{}
   }%
   \if@openright\cleardoublepage\else\clearpage\fi%
   \IfValueTF{#2}{%
@@ -2669,7 +2669,7 @@
 }
 \newcommand\thu@titlepage@en@degree{%
   \thu@thesis@name@en{} Submitted to\par
-  {\bfseries Tsinghua University\par}%
+  {\bfseries China Three Gorges University\par}%
   in partial fulfillment of the requirement\par
   for the
   \ifthu@degree@type@professional
@@ -3153,22 +3153,22 @@
 %
 % 几种种引用样式：
 %    \begin{macrocode}
-\expandafter\newcommand\csname bibstyle@thuthesis-numeric\endcsname{%
+\expandafter\newcommand\csname bibstyle@ctguthesis-numeric\endcsname{%
   \bibpunct{[}{]}{,}{s}{,}{\textsuperscript{,}}}
-\expandafter\newcommand\csname bibstyle@thuthesis-author-year\endcsname{%
+\expandafter\newcommand\csname bibstyle@ctguthesis-author-year\endcsname{%
   \bibpunct{(}{)}{;}{a}{,}{,}}
-\expandafter\newcommand\csname bibstyle@thuthesis-bachelor\endcsname{%
+\expandafter\newcommand\csname bibstyle@ctguthesis-bachelor\endcsname{%
   \bibpunct{[}{]}{,}{s}{,}{\textsuperscript{,}}}
 %    \end{macrocode}
 %
 % 设置 \option{cite-style} 的接口：
 %    \begin{macrocode}
-\@namedef{bibstyle@thuthesis-inline}{\bibpunct{[}{]}{,}{n}{,}{,}}
+\@namedef{bibstyle@ctguthesis-inline}{\bibpunct{[}{]}{,}{n}{,}{,}}
 \thu@define@key{
   cite-style = {
     name = cite@style,
     code = {
-      \@nameuse{bibstyle@thuthesis-\thu@cite@style}
+      \@nameuse{bibstyle@ctguthesis-\thu@cite@style}
     },
   }
 }
@@ -3237,7 +3237,7 @@
 % 但是从示例来看，目录中只出现附录的 chapter 标题，
 % 不出现附录中的 section 及 subsection 的标题。
 % 部分院系（例如自动化系）的格式审查的老师甚至一致口头如此要求。
-% （\href{https://github.com/xueruini/thuthesis/pull/425}{\#425}）
+% （\href{https://github.com/sxdxyxy/ctguthesis/pull/425}{\#425}）
 %    \begin{macrocode}
 \thu@define@key{
   toc-depth = {
@@ -3436,7 +3436,7 @@
       }%
     \fi
     \hypersetup{
-      pdfcreator={\thuthesis-v\version}}
+      pdfcreator={\ctguthesis-v\version}}
   }%
 }
 %    \end{macrocode}
@@ -3705,7 +3705,7 @@
 \newcommand{\note}[2][Note]{{%
   \color{magenta}{\bfseries #1}\emph{#2}}}
 
-\def\thuthesis{\textsc{Thu}\-\textsc{Thesis}}
+\def\ctguthesis{\textsc{Thu}\-\textsc{Thesis}}
 %</dtx-style>
 %    \end{macrocode}
 % \fi
