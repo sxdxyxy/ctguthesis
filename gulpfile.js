@@ -6,22 +6,22 @@ const color = require('ansi-colors');
 const del = require('del');
 const zip = require('gulp-zip');
 
-const packageName = 'thuthesis';
+const packageName = 'ctguthesis';
 
 const config = {
     template: {
-        files: ['thuthesis.ins',
-                'thuthesis.dtx',
+        files: ['ctguthesis.ins',
+                'ctguthesis.dtx',
                 'tsinghua.pdf',
-                'thuthesis-numeric.bst',
-                'thuthesis-author-year.bst',
-                'thuthesis-bachelor.bst',
+                'ctguthesis-numeric.bst',
+                'ctguthesis-author-year.bst',
+                'ctguthesis-bachelor.bst',
                 'Makefile',
                 'latexmkrc',
                 'README.md',
-                'thuthesis.pdf'],
+                'ctguthesis.pdf'],
         // generated shold not be included for ctan archive
-        generated: ['thuthesis.cls']
+        generated: ['ctguthesis.cls']
     },
 
     example: {

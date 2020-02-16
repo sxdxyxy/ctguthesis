@@ -1,20 +1,24 @@
-[![Actions Status](https://github.com/sxdxyxy/ctguthesis/workflows/build/badge.svg)](https://github.com/xueruini/thuthesis/actions)
-[![Join the chat at https://gitter.im/ctguthesis/Lobby](https://badges.gitter.im/thuthesis/Lobby.svg)](https://gitter.im/thuthesis/Lobby)
-[![GitHub downloads](https://img.shields.io/github/downloads/sxdxyxy/ctguthesis/total)](https://github.com/xueruini/thuthesis/releases)
-[![GitHub commits](https://img.shields.io/github/commits-since/sxdxyxy/ctguthesis/latest)](https://github.com/xueruini/thuthesis/commits/master)
-[![GitHub release](https://img.shields.io/github/v/release/sxdxyxy/ctguthesis)](https://github.com/xueruini/thuthesis/releases/latest)
-[![CTAN](https://img.shields.io/ctan/v/ctguthesis)](https://www.ctan.org/pkg/thuthesis)
+[![Actions Status](https://github.com/sxdxyxy/ctguthesis/workflows/build/badge.svg)](https://github.com/sxdxyxy/ctguthesis/actions)
+[![Join the chat at https://gitter.im/ctguthesis/Lobby](https://badges.gitter.im/ctguthesis/Lobby.svg)](https://gitter.im/ctguthesis/Lobby)
+[![GitHub downloads](https://img.shields.io/github/downloads/sxdxyxy/ctguthesis/total)](https://github.com/sxdxyxy/ctguthesis/releases)
+[![GitHub commits](https://img.shields.io/github/commits-since/sxdxyxy/ctguthesis/latest)](https://github.com/sxdxyxy/ctguthesis/commits/master)
+[![GitHub release](https://img.shields.io/github/v/release/sxdxyxy/ctguthesis)](https://github.com/sxdxyxy/ctguthesis/releases/latest)
+[![CTAN](https://img.shields.io/ctan/v/ctguthesis)](https://www.ctan.org/pkg/ctguthesis)
 
 # What's Ctguthesis?
-**Ctguthesis** is an abbreviation of **T**sing**h**ua **U**niversity **Thesis** LaTeX Template.
+**Ctguthesis** is an abbreviation of **C**hinas**T**hree**G**orges  **U**niversity **Thesis** LaTeX Template.
 
-This package establishes a simple and easy-to-use LaTeX template for Tsinghua dissertations, including general undergraduate research papers, masters theses, doctoral dissertations, and postdoctoral reports. An English translation of this README follows the Chinese below.
+This package establishes a simple and easy-to-use LaTeX template for China Three Gorges dissertations, including general undergraduate research papers, masters theses, doctoral dissertations, and postdoctoral reports. An English translation of this README follows the Chinese below.
+
+It includes a org template and manual to guide write in Emacs org-mode and plan their doctoral life.
 
 
-# Ctguthesis 是什么？
-**Ctguthesis** 是 **T**sing**h**ua **U**niversity **Thesis** LaTeX Template 的缩写。
+# ctguthesis 是什么？
+**Ctguthesis** 是 **China Three Gorges University **Thesis** LaTeX Template 的缩写。
 
-此宏包旨在建立一个简单易用的清华大学学位论文 LaTeX 模板，包括本科综合论文训练、硕士论文、博士论文以及博士后出站报告。
+此宏包旨在建立一个简单易用的三峡大学学位论文 LaTeX 模板，包括本科综合论文训练、硕士论文、博士论文以及博士后出站报告。
+
+同时还包含一个Emacs org 的论文模版，和论文工作计划。(ctguthesissetup.org, ctguthesis.org)
 
 # 文档
 请[下载](https://github.com/sxdxyxy/ctguthesis/releases)模板，里面包括具体使用说明以及示例文档：
@@ -23,12 +27,9 @@ This package establishes a simple and easy-to-use LaTeX template for Tsinghua di
 * 示例文档 (main.pdf)
 
 # 下载
-* 发行版：[CTAN](https://www.ctan.org/pkg/ctguthesis)
 * 开发版：[GitHub](https://github.com/sxdxyxy/ctguthesis)
 
 # 升级
-## 自动更新
-通过 TeX 发行版工具自动从 [CTAN](https://www.ctan.org/pkg/ctguthesis) 更新。
 
 ## 手动更新
 从 [GitHub](https://github.com/sxdxyxy/ctguthesis) 下载放入论文目录，执行命令（Windows 用户在文件夹空白处按 `Shift + 鼠标右键`，点击“在此处打开命令行窗口”）：
@@ -68,12 +69,9 @@ Download and unzip the template. Specific usage documentation and examples can b
 * Template example (main.pdf)
 
 # Downloads
-* Published version: [CTAN](https://www.ctan.org/pkg/ctguthesis)
 * Developer version: [GitHub](https://github.com/sxdxyxy/ctguthesis)
 
 # Updates
-## Automatic
-Get the most up-to-date published version with your TeX distribution from [CTAN](https://www.ctan.org/pkg/ctguthesis).
 
 ## Manual
 Download the package from [GitHub](https://github.com/sxdxyxy/ctguthesis) to the root directory of your thesis, then execute the command (Windows users `Shift + right click` white area in the file window and click "Open command line window here" from the popup menu):

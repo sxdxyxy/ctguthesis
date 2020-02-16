@@ -1,6 +1,6 @@
 #!/usr/bin/env texlua
 
-module = "thuthesis"
+module = "ctguthesis"
 
 supportdir = "./testfiles/support-main"
 

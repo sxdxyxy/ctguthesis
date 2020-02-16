@@ -1,5 +1,5 @@
 %%
-%% This is file `versions/thu/thuthesis-numeric.bst',
+%% This is file `versions/thu/ctguthesis-numeric.bst',
 %% generated with the docstrip utility.
 %%
 %% The original source files were:
